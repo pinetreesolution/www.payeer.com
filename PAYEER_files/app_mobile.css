@@ -1,0 +1,224 @@
+.app-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 9999;
+  text-align: center;
+}
+.mobile-wrapper {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.mobile-title {
+  font-family: 'Futura New';
+  color: #171717;
+  margin-top: 6.28vw;
+  font-size: 8.051vw;
+  font-weight: 500;
+  line-height: 9.822vw;
+}
+.mobile-subtitle {
+  font-family: 'Futura New';
+  font-size: 4.83vw;
+  margin-top: -0.8vw;
+}
+.mobile-logo img {
+  width: 33.011vw;
+}
+.mobile-img {
+  margin-top: 6.6vw;
+}
+.mobile-img img {
+  width: 53.14vw;
+  height: 78.422vw;
+}
+.mobile-text {
+  font-size: 2.25vw;
+  color: #b0b2b3;
+}
+.mobile-link {
+  margin-top: -4.5vw;
+}
+.mobile-link a {
+  display: inline-block;
+  position: relative;
+  width: 73.75vw;
+  height: 16.103vw;
+  box-sizing: border-box;
+  padding-left: 9.357vw;
+  font-family: 'Futura New Demi';
+  color: #fff;
+  font-size: 6.28vw;
+  line-height: 16.103vw;
+  letter-spacing: 0.628vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #3c0;
+  border: 2px solid #c1efb2;
+  border-radius: 60px;
+}
+.mobile-link a i {
+  position: absolute;
+  width: 11.91vw;
+  height: 11.91vw;
+  top: 50%;
+  left: 2.576vw;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+}
+.mobile-link a i img {
+  position: absolute;
+  width: 4.669vw;
+  height: 5.153vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.mobile-goto {
+  margin-top: 4.5vw;
+  font-family: 'Futura New';
+  font-size: 4.83vw;
+  font-weight: 200;
+}
+.mobile-goto a {
+  color: #39c;
+  text-decoration: none;
+}
+.mobile-close {
+  position: absolute;
+  width: 9.01vw;
+  height: 9.01vw;
+  top: 3.22vw;
+  right: 3.22vw;
+  line-height: 9.01vw;
+  text-align: center;
+  color: #39c;
+  border-radius: 50%;
+  border: 2px solid #d3d3d3;
+}
+.mobile-close i {
+  position: relative;
+  font-size: 3.2vw;
+}
+@media (min-width: 751px) {
+  .app-mobile {
+    display: none;
+  }
+}
+
+.app-mobile {
+   display: none;
+   text-align: center;
+}
+.app-mobile.open {
+   display: block;
+}
+
+a.mobile-close {
+  text-decoration: none;
+}
+.mobile-wrapper {
+     position: absolute;
+     top: 50%;
+     width: 100%;
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+}
+
+
+@media (min-width: 450px) {
+  .mobile-title {
+     margin-top: 2vh;
+     font-size: 5.5vh;
+     line-height: 6.4vh;
+  }
+  .mobile-subtitle {
+     font-size: 3.2vh;
+     margin-top: -0.55vh;
+  }
+  .mobile-logo img {
+     width: 22vh;
+  }
+  .mobile-img {
+      background-image: url(/style/images/mobile/mobile-fon.png);
+     background-repeat: no-repeat;
+     background-size: 33.5vh;
+     width: 33.5vh;
+     height: 58vh;
+     margin: 2vh auto 0;
+     padding: 6.2vh 1vh 2vh 1.4vh;
+  }
+
+  .mobile-text {
+     font-size: 1.4vh;
+  }
+  .mobile-link {
+     margin-top: -2vh;
+  }
+  .mobile-link a {
+     width: 50vh;
+     height: 10.7vh;
+     padding-left: 6vh;
+     font-size: 4.2vh;
+     line-height: 11vh;
+     letter-spacing: 0.4vh;
+  }
+  .mobile-link a i {
+     width: 8vh;
+     height: 8vh;
+     left: 1.2vh;
+  }
+  .mobile-link a i img {
+     width: 3.12vh;
+     height: 3.45vh;
+  }
+  .mobile-goto {
+     margin-top: 2vh;
+     font-size: 3.25vh;
+  }
+  .mobile-close {
+     width: 6.01vh;
+     height: 6.01vh;
+     top: 2.22vh;
+     right: 2.22vh;
+     line-height: 6.01vh;
+  }
+  .mobile-close i {
+     font-size: 2.1vh;
+  }
+  .mobile-img img {
+     width: 100%;
+     height: 50vh;
+  }
+}
+@media (max-width: 450px) {
+  .mobile-title {
+      margin-top: 2vh;
+  }
+  .mobile-img {
+      background-image: url(/style/images/mobile/mobile-fon.png);
+      background-repeat: no-repeat;
+      background-size: 30.5vh;
+      width: 30.5vh;
+      height: 55vh;
+      margin: 2vh auto 0;
+      padding: 5.6vh 0.9vh 3vh 1.1vh;
+      box-sizing: border-box;
+      overflow: hidden;
+  }
+  .mobile-img img {
+      width: 100%;
+      height: 46vh;
+
+  }
+}

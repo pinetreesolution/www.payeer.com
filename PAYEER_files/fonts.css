@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'proxima nova';
+  font-weight:400;
+  font-style:normal;
+  src: local('proxima nova'),
+  url("../fonts/proxima nova.woff2") format('woff2'),
+  url("../fonts/proxima nova.woff") format('woff');
+}
+@font-face{
+   font-family:'Futura New';
+   src:local('Futura New Book Reg'),local('FuturaNewBook-Reg'),url('../fonts/FuturaNewBook-Reg.woff2') format('woff2'),url('../fonts/FuturaNewBook-Reg.woff') format('woff');font-weight:400;font-style:normal;
+}
+@font-face {
+  font-family: 'proxima nova';
+  font-weight:200;
+  font-style:normal;
+  src: local('proxima nova'),
+  url("../fonts/proxima nova-light.woff2") format('woff2'),
+  url("../fonts/proxima nova-light.woff") format('woff');
+}
+@font-face {
+  font-family: 'proxima nova';
+  font-weight:600;
+  font-style:normal;
+  src: local('proxima nova'),
+  url("../fonts/proxima nova-semibold.woff2") format('woff2'),
+  url("../fonts/proxima nova-semibold.woff") format('woff');
+}
+@font-face {
+  font-family: 'proxima nova';
+  font-weight:900;
+  font-style:normal;
+  src: local('proxima nova'),
+  url("../fonts/proxima nova-bold.otf") format('opentype'),
+  url("../fonts/proxima nova-bold.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'icomoon';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/icomoon.eot');
+  src: local('icomoon'),
+  url('../fonts/icomoon.ttf') format('truetype'),
+  url('../fonts/icomoon.woff') format('woff'),
+  url('../fonts/icomoon.svg') format('svg');
+}
+
+
+
+
+@font-face{
+   font-family:'Gotham Pro';
+   src: local('Gotham Pro'),
+   local('GothamPro'),
+   url('../fonts/GothamPro.woff2') format('woff2'),
+   url('../fonts/GothamPro.woff') format('woff');
+   font-weight:400;
+   font-style:normal;
+}
+@font-face{
+   font-family:'Gotham Pro';
+   src:local('Gotham Pro Medium'),local('GothamPro-Medium'),url('../fonts/GothamPro-Medium.woff2') format('woff2'),url('../fonts/GothamPro-Medium.woff') format('woff');font-weight:500;font-style:normal;
+}
+@font-face{
+   font-family:'Gotham Pro';
+   src:local('Gotham Pro Bold'),local('GothamPro-Bold'),url('../fonts/GothamPro-Bold.woff2') format('woff2'),url('../fonts/GothamPro-Bold.woff') format('woff');font-weight:700;font-style:normal;
+}
+
+@font-face{
+   font-family:'Futura New';
+   src:local('Futura New Medium Reg'),local('FuturaNewMedium-Reg'),url('../fonts/FuturaNewMedium-Reg.woff2') format('woff2'),url('../fonts/FuturaNewMedium-Reg.woff') format('woff');font-weight:500;font-style:normal;
+}
+
+@font-face{
+   font-family:'Futura New Demi';
+   src:local('Futura New Demi Reg'),local('FuturaNewDemi-Reg'),url('../fonts/FuturaNewDemi-Reg.woff2') format('woff2'),url('../fonts/FuturaNewDemi-Reg.woff') format('woff');font-weight:400;font-style:normal;
+}
+@font-face{
+   font-family:'Bradley Hand';
+   src:url('../fonts/Bradley-Hand-Bold.woff2') format('woff2'),url('../fonts/Bradley-Hand-Bold.woff') format('woff');font-weight:700;font-style:normal;
+}
